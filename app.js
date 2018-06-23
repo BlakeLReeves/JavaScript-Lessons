@@ -1,17 +1,11 @@
-var firstName = "Blake";
-var age = 22;
-var isMale = true;
-var isFemale = false;
-var surname = null;
-
-var person = {
-    name: firstName,
-    age: age,
-    dob: '10/16/1995'
+var friend = {
+    name: 'Will',
+    age: 25,
+    address: {
+        address1: '123 Main St',
+        city: 'New York',
+        state: 'NY'
+    }
 };
 
-person.age;
-person.name;
-person.dob;
-
-console.log(person);
+console.log (friend.address.state);
