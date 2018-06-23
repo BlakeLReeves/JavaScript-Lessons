@@ -1,11 +1,6 @@
-var friend = {
-    name: 'Will',
-    age: 25,
-    address: {
-        address1: '123 Main St',
-        city: 'New York',
-        state: 'NY'
-    }
-};
+var val1 = 5;
+var val2 = 15;
 
-console.log (friend.address.state);
+val1 ++
+
+console.log(val1);

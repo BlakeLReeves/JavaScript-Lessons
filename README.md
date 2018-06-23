@@ -2,3 +2,4 @@
 * Variables
 * Data Types
 * Objects and Arrays
+* Operators
