@@ -1,0 +1,3 @@
+# Concepts
+* Variables
+* Data Types

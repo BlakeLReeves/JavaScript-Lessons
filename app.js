@@ -1,11 +1,17 @@
-var firstName = 'Blake';
-let lastName = 'Reeves';
+var firstName = "Blake";
+var age = 22;
+var isMale = true;
+var isFemale = false;
+var surname = null;
 
-firstName = "Will";
-lastName = "Johnston";
+var person = {
+    name: firstName,
+    age: age,
+    dob: '10/16/1995'
+};
 
-const fullName = 'Blake Reeves';
+person.age;
+person.name;
+person.dob;
 
-console.log(firstName);
-console.log(lastName);
-console.log(fullName);
+console.log(person);
