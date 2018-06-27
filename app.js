@@ -1,16 +1,9 @@
-var val = 10;
+var friends = ['Matt',  'Will', 'Jackson', 'David', 'Paul', 'Kimberly', 'Jio'];
 
-switch (val) {
-    case 10:
-        console.log('10');
-        break;
-    case 20:
-    case 54:
-        console.log('less than 55');
-        break;
-    default:
-    console.log('default');
-        break;
+do {
+    console.log('Test');
+} while(false)
+
+while(false) {
+    console.log('Not going to happen!');
 }
-
-console.log('Ended Program');

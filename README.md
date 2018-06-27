@@ -4,3 +4,4 @@
 * Objects and Arrays
 * Operators
 * Conditional Statements
+* Loops
