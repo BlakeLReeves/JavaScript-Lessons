@@ -1,9 +1,11 @@
-var friends = ['Matt',  'Will', 'Jackson', 'David', 'Paul', 'Kimberly', 'Jio'];
 
-do {
-    console.log('Test');
-} while(false)
+var val = subtract(add(2, 3), subtract(5, 3));
+console.log(val);
 
-while(false) {
-    console.log('Not going to happen!');
+function add(num1, num2) {
+    return num1 + num2;
+}
+
+function subtract(num1, num2) {
+    return num1 - num2;
 }
